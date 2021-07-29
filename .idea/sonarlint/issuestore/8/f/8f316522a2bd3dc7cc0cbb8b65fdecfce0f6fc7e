@@ -1,0 +1,16 @@
+
+E
+java:S6212"/Declare this local variable with "var" instead.(‘ùÖ¶
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹ÔØ‡ıÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(¢Õ˜©
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Õ±Š‹şÿÿÿÿ
+J
+java:S6212""/Declare this local variable with "var" instead.(İÚñğøÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(â¤Ëßûÿÿÿÿ
+E
+java:S6212'"/Declare this local variable with "var" instead.(åí¢é
+L
+java:S62121"/Declare this local variable with "var" instead.(Ê• Ò8æ »®/
+Q
+java:S62122"/Declare this local variable with "var" instead.(Íóµ¿ûÿÿÿÿ8¬Î¡»®/

@@ -1,0 +1,16 @@
+
+|
+java:S1149&"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ÕãÊ´®/
+Q
+java:S6212"/Declare this local variable with "var" instead.(èŠ·¡ùÿÿÿÿ8ŠùË´®/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ê‚‘Î8Ò‡Ò´®/
+L
+java:S6212"/Declare this local variable with "var" instead.(Êğ”Ñ8úœÏ´®/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÁúæÑ8¢œÒ´®/
+Q
+java:S6212"/Declare this local variable with "var" instead.(ÁÍ¤¨şÿÿÿÿ8”°Î´®/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÆïÏùÿÿÿÿ8¼µÒ´®/
+<
+java:S1659#" Declare "bs" on a separate line.(Ûü 8ÚãÊ´®/
+L
+java:S6212&"/Declare this local variable with "var" instead.(í…Ò‰8ÚãÊ´®/

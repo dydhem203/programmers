@@ -1,0 +1,18 @@
+
+L
+java:S1066*"/Merge this if statement with the enclosing one.(¡Íí£8–®û´®/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ûÜ8—®û´®/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ûÊÕùÿÿÿÿ8œ‡ş´®/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(… ”íúÿÿÿÿ8øÖ€µ®/
+m	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ“€ë8Ó¹ÿ´®/
+L
+java:S6212"/Declare this local variable with "var" instead.(¥ûÜ8àßú´®/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ò‰ıßüÿÿÿÿ8áßú´®/
+Q
+java:S6212"/Declare this local variable with "var" instead.(‰ûÊÕùÿÿÿÿ8Û¹ÿ´®/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(š•ş8Û¹ÿ´®/
+Q
+java:S6212"/Declare this local variable with "var" instead.(… ”íúÿÿÿÿ8şÖ€µ®/
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ÛËŒıûÿÿÿÿ8şÖ€µ®/
+L
+java:S6212("/Declare this local variable with "var" instead.(Èæç”8œ®û´®/
