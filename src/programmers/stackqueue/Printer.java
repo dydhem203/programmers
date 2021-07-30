@@ -2,7 +2,9 @@ package programmers.stackqueue;
 
 /**
  * 문제 설명
- * 일반적인 프린터는 인쇄 요청이 들어온 순서대로 인쇄합니다. 그렇기 때문에 중요한 문서가 나중에 인쇄될 수 있습니다. 이런 문제를 보완하기 위해 중요도가 높은 문서를 먼저 인쇄하는 프린터를 개발했습니다. 이 새롭게 개발한 프린터는 아래와 같은 방식으로 인쇄 작업을 수행합니다.
+ * 일반적인 프린터는 인쇄 요청이 들어온 순서대로 인쇄합니다. 그렇기 때문에 중요한 문서가 나중에 인쇄될 수 있습니다.
+ * 이런 문제를 보완하기 위해 중요도가 높은 문서를 먼저 인쇄하는 프린터를 개발했습니다.
+ * 이 새롭게 개발한 프린터는 아래와 같은 방식으로 인쇄 작업을 수행합니다.
  *
  * 1. 인쇄 대기목록의 가장 앞에 있는 문서(J)를 대기목록에서 꺼냅니다.
  * 2. 나머지 인쇄 대기목록에서 J보다 중요도가 높은 문서가 한 개라도 존재하면 J를 대기목록의 가장 마지막에 넣습니다.
@@ -32,6 +34,31 @@ public class Printer {
     }
     public static int solution(int[] priorities, int location) {
         int answer = 0;
-        return answer;
+        int [][] temp = new int[priorities.length][2];
+        int big = 0;
+        for(int i=0; i<priorities.length; i++){
+            temp[i][0] = priorities[i];
+            temp[i][1] = 0;
+            big = Math.max(big, priorities[i]);
+        }
+
+        int i = 0;
+        int num = 1;
+        while(true){
+            if(temp[i][0] >= big && temp[i][1]==0) {
+                temp[i][1] = num;
+                num ++;
+                big = nextBig(temp);
+            }
+            if(temp[location][1]!=0) return temp[location][1];
+            i = i==priorities.length-1?0:i+1;
+        }
+    }
+    private static int nextBig (int [][] temp){
+        int big = 0;
+        for(int i=0 ; i<temp.length ; i++){
+            if(temp[i][1]==0) big = Math.max(big, temp[i][0]);
+        }
+        return big;
     }
 }
