@@ -30,8 +30,7 @@ public class FunctionalDevelopment {
     }
 
     public static int[] solution(int[] progresses, int[] speeds) {
-        int[] answer = {};
-        List<Integer> list = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<>();
         int an=0;
         while(true){
             // progress 값 증가

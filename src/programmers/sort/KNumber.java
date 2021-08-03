@@ -25,7 +25,7 @@ public class KNumber {
         int[] array = {1, 5, 2, 6, 3, 7, 4};
         int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
         int[] result = solution(array, commands);
-        System.out.println(Arrays.stream(result).mapToObj(String::valueOf).collect(Collectors.toList()));//[5, 6, 3]
+        System.out.println(Arrays.toString(result));//[5, 6, 3]
     }
 
     public static int[] solution(int[] array, int[][] commands) {
