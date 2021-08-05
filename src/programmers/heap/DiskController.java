@@ -44,13 +44,8 @@ public class DiskController {
         System.out.println(result);//72
     }
     public static int solution(int[][] jobs) {
-        Arrays.sort(jobs, ((o1, o2) -> {
-            if(o1[0] == o2[0]){
-                return Integer.compare(o1[1], o2[1]);
-            }else{
-                return Integer.compare(o1[0], o2[0]);
-            }
-        }));
+        Arrays.sort(jobs, Comparator.comparingInt(o1 -> o1[0]));
+
         PriorityQueue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>(Comparator.comparingInt(Map.Entry::getValue));
         List<Integer> rtnList = new ArrayList<>();
         int ms = 0; //시간
